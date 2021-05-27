@@ -8,8 +8,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
 
-//    var BASE_URL = "https://jsonplaceholder.typicode.com/"
-    var BASE_URL = "http://auralearning.xyz/"
+    var BASE_URL = "https://jsonplaceholder.typicode.com/"
+//    var BASE_URL = "http://auralearning.xyz/"
     val getClient: ApiInterface
         get() {
             val gson = GsonBuilder()

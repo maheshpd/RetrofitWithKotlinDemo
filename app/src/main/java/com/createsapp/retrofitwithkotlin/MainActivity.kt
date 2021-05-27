@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
                 response: Response<List<DataResponse>>
             ) {
                 progressDialog.dismiss()
-                dataList.addAll(response!!.body()!!)
+                dataList.addAll(response.body()!!)
                 adapter.notifyDataSetChanged()
             }
 
